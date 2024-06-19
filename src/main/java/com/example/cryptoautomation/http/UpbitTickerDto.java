@@ -1,10 +1,14 @@
 package com.example.cryptoautomation.http;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Getter
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class UpbitTickerDto {
     private String market;
     private String trade_date;
